@@ -1,25 +1,27 @@
-# Android-MVVM-Boilerplate-Hilt
-This repository contains a sample project in Kotlin to demonstrate AndroidX, MVVM, Coroutines, Hilt, Room, Data Binding, View Binding, Retrofit, Moshi, Leak Canary and Repository pattern
+# Chatbox Application
+This application building using with libraries AndroidX, MVVM, Coroutines, Hilt, Room, Data Binding, View Binding, Retrofit, Moshi, Leak Canary and Repository pattern
+
+# Libraries Reference
 
 ## The app has the following base packages:
 
-- database: Models to work with Room database
-
-- di: Hilt classes to work with Network and Database
-
-- domain: Models which are used by UI
-
-- network: Services and network models
-
-- repository: Contains all repositories
-
-- util: Utility class
-
-- views: View classes along with their corresponding ViewModel.
-
-## Library reference resources:
+- Dependency Injection: Hilt classes to work with Network and Database
 
 - Hilt: https://developer.android.com/training/dependency-injection/hilt-android
+
+- Network: Services and network models
+
+- Retrofit: https://square.github.io/retrofit/
+
+- Domain: Models which are used by UI
+
+- Repository: Contains all repositories
+
+- Database: Models to work with Room database
+
+- Util: Utility class
+
+- Views: View classes along with their corresponding ViewModel.
 
 - MVVM Architecture : https://developer.android.com/jetpack/guide
 
@@ -32,8 +34,6 @@ This repository contains a sample project in Kotlin to demonstrate AndroidX, MVV
 - Leak Canary: https://square.github.io/leakcanary/
 
 - Glide: https://github.com/bumptech/glide
-
-- Retrofit: https://square.github.io/retrofit/
 
 ## Concept reference resources:
 
