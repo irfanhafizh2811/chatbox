@@ -3,6 +3,7 @@ package com.irfan.chatbox.util
 import android.app.Activity
 import android.content.Context
 import android.content.res.Configuration
+import com.irfan.chatbox.R
 import java.io.BufferedReader
 import java.io.IOException
 import java.io.InputStreamReader
