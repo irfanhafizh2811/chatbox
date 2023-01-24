@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/page_chat">
+
+    <fragment
+        android:id="@+id/page_chat"
+        android:name="com.irfan.chatbox.views.chat.ChatFragment"
+        tools:layout="@layout/fragment_message">
+        <action
+            android:id="@+id/action_page_chat_to_page_message"
+            app:destination="@id/page_message"></action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/page_message"
+        android:name="com.irfan.chatbox.views.message.MessageFragment"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="senderId"
+            android:defaultValue="@null"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>
+
